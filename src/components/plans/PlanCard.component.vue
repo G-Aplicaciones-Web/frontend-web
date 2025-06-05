@@ -119,4 +119,4 @@ const getPlanPrice = (price) => {
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
 }
-</style>
+</style> 
