@@ -1,1 +1,120 @@
-
+{
+  "devices": [
+    {
+      "id": "disp1",
+      "name": "Computer",
+      "voltage": 220.5,
+      "current": 0.45,
+      "power": 99.2,
+      "status": "disconnected"
+    },
+    {
+      "id": "dev2",
+      "name": "Router",
+      "voltage": 221.0,
+      "current": 3.1,
+      "power": 685.1,
+      "status": "disconnected"
+    },
+    {
+      "id": "dev3",
+      "name": "Smart thermostats",
+      "voltage": 219.8,
+      "current": 0.8,
+      "power": 175.8,
+      "status": "connected"
+    },
+    {
+      "id": "dev4",
+      "name": "Lighting systems",
+      "voltage": 220.1,
+      "current": 0.1,
+      "power": 22.0,
+      "status": "connected"
+    }
+  ],
+  "plans": [
+    {
+      "id": 1,
+      "name": "Free",
+      "price": 0,
+      "benefits": [
+        "Monitorización de hasta 3 dispositivos IoT.",
+        "Acceso a promedios históricos básicos (Voltaje, Corriente, Potencia).",
+        "Sugerencias generales de ahorro energético.",
+        "Soporte técnico básico (vía email)."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Básico",
+      "price": 9.99,
+      "benefits": [
+        "Monitorización de hasta 10 dispositivos IoT.",
+        "Acceso a promedios históricos detallados (Voltaje, Corriente, Potencia, Frecuencia, Factor de Potencia).",
+        "Historial de datos de los últimos 3 meses.",
+        "Sugerencias de ahorro energético mejoradas.",
+        "Soporte técnico prioritario (email y chat).",
+        "Control remoto de encendido/apagado de dispositivos."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Premium",
+      "price": 19.99,
+      "benefits": [
+        "Monitorización ilimitada de dispositivos IoT.",
+        "Acceso a todos los promedios históricos y análisis avanzados.",
+        "Historial de datos ilimitado.",
+        "Sugerencias de ahorro energético personalizadas (basadas en patrones de uso).",
+        "Soporte técnico 24/7 (email, chat y teléfono).",
+        "Control remoto avanzado y programación de dispositivos.",
+        "Reportes de consumo energético personalizados.",
+        "Acceso anticipado a nuevas funciones."
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": "comp1",
+      "name": "TecnoSoluciones S.A.C.",
+      "email": "contacto@tecnosoluciones.com",
+      "planId": 3
+    },
+    {
+      "id": "comp2",
+      "name": "Energía Futura E.I.R.L.",
+      "email": "info@energiafutura.com",
+      "planId": 1
+    },
+    {
+      "id": "comp3",
+      "name": "Innovaciones Eléctricas SAC",
+      "email": "ventas@innovaciones.com",
+      "planId": 2
+    }
+  ],
+  "electricians": [
+    {
+      "id": "elec1",
+      "name": "Juan",
+      "lastName": "Pérez",
+      "code": "elec001",
+      "email": "juan.perez@electricista.com"
+    },
+    {
+      "id": "elec2",
+      "name": "María",
+      "lastName": "González",
+      "code": "elec002",
+      "email": "maria.gonzalez@electricista.com"
+    },
+    {
+      "id": "elec3",
+      "name": "Carlos",
+      "lastName": "Ramírez",
+      "code": "elec003",
+      "email": "carlos.ramirez@electricista.com"
+    }
+  ]
+}
