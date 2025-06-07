@@ -44,3 +44,10 @@ const props = defineProps({
   color: var(--text-dark);
   margin-bottom: 0.5rem;
 }
+
+.suggestion-text {
+  font-size: 0.9rem;
+  color: var(--text-medium);
+  line-height: 1.5;
+}
+</style>
